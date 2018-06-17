@@ -60,8 +60,8 @@ class Charms:
 			
 	@commands.command(pass_context=True)
 	async def void(self, ctx):
-		""" <3
-			>hug <@user>
+		""" Scream if you like, no one will hear you for a while.
+			>void <message>
 		"""
 		mcont = ctx.message.content
 		void = self.bot.get_channel('450753856377192450')
